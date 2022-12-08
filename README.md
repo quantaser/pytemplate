@@ -10,4 +10,4 @@ A template for building a python pkg
 
 [![codecov](https://codecov.io/gh/quantaser/pytemplate/branch/main/graph/badge.svg?token=9KLNCETIYB)](https://codecov.io/gh/quantaser/pytemplate)
 
-![](https://codecov.io/gh/quantaser/pytemplate/branch/main/graphs/sunburst.svg?token=9KLNCETIYB)
+[![](https://codecov.io/gh/quantaser/pytemplate/branch/main/graphs/sunburst.svg?token=9KLNCETIYB)](https://app.codecov.io/gh/quantaser/pytemplate)
