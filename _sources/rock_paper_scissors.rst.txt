@@ -1,6 +1,6 @@
 Rock-Paper-Scissors Game
 ==========================
 
-.. autoclass:: Gesture
+.. automodule:: rock_paper_scissors
     :members:
     :noindex:
