@@ -1,3 +1,6 @@
+"Rock-Paper-Scissors Game"
+==========================
+
 .. auotmodule:: rock_paper_scissors
     :members:
     :noindex:
