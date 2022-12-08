@@ -1,0 +1,3 @@
+.. auotmodule:: rock_paper_scissors
+    :members:
+    :noindex:

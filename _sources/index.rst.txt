@@ -10,9 +10,7 @@ Welcome to pytemplate's documentation!
    :maxdepth: 2
    :caption: Contents:
 
-   .. auotmodule:: rock_paper_scissors
-      :members:
-      :noindex:
+   rock_paper_scissors
 
 Indices and tables
 ==================
