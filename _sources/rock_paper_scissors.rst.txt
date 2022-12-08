@@ -1,6 +1,6 @@
 Rock-Paper-Scissors Game
 ==========================
 
-.. automodule:: rock_paper_scissors
+.. automodule:: pytemplate.rock_paper_scissors
     :members:
     :noindex:
