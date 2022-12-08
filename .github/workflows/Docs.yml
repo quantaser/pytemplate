@@ -1,6 +1,7 @@
 name: "Pull Request Docs Check"
 
-push:
+on:
+  push:
     branches:
       - '*'
     tags: ['*']
