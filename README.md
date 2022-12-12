@@ -19,7 +19,7 @@ A template for building a python pkg
 [codecov link]: https://codecov.io/gh/quantaser/pytemplate
 [codecov graph]: https://codecov.io/gh/quantaser/pytemplate/branch/main/graphs/sunburst.svg?token=9KLNCETIYB
 
-## Quick start
+## Installation
 
 To install this package, simply run:
 
@@ -27,3 +27,45 @@ To install this package, simply run:
 $ pip install --upgrade git+https://github.com/quantaser/pytemplate.git
 
 ```
+
+## Quick start
+
+Import `Rock-Paper-Scissors Game` module:
+
+```python
+>>> import pytemplate.rock_paper_scissors as rps
+```
+
+Declare some `Gesture`
+
+```python
+>>> g0 = rps.Gesture(0)
+>>> g0
+scissor
+>>> g1 = rps.Gesture(1)
+>>> g1
+rock
+>>> g2 = rps.Gesture(2)
+>>> g2
+paper
+```
+
+Compare the `Gesture`s
+
+```python
+>>> g0.compare(g1)
+'loss'
+>>> g0.compare(g2)
+'win'
+>>> g1.compare(g0)
+'win'
+>>> g1.compare(g2)
+'loss'
+>>> g2.compare(g0)
+'loss'
+>>> g2.compare(g1)
+'win'
+```
+
+> **Note**
+> The functions under `untested` module are not tested yet.
