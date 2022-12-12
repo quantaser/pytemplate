@@ -2,7 +2,7 @@
 A template for building a python pkg
 
 | **Documentation** | **Build Status** | **Coverage** |
-|:-----------------:|:----------------:|:-----------:|
+|:-----------------:|:----------------:|:------------:|
 | [![doc badge]][doc link] <br> [![website badge]][website link] | [![CI badge]][CI link] | [![codecov badge]][codecov link] <br> [![codecov graph]][codecov link] |
 
 [doc badge]: https://github.com/quantaser/pytemplate/actions/workflows/Docs.yml/badge.svg
