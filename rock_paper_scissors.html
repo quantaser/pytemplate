@@ -87,21 +87,55 @@
 <dl class="py method">
 <dt class="sig sig-object py" id="rock_paper_scissors.Gesture.compare">
 <span class="sig-name descname"><span class="pre">compare</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">g</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference internal" href="#rock_paper_scissors.Gesture" title="rock_paper_scissors.Gesture"><span class="pre">Gesture</span></a></span></em><span class="sig-paren">)</span><a class="headerlink" href="#rock_paper_scissors.Gesture.compare" title="Permalink to this definition"></a></dt>
-<dd></dd></dl>
+<dd><p>Compare with another <cite>Gesture</cite>.</p>
+<dl>
+<dt>Args:</dt><dd><ul class="simple">
+<li><p><cite>self</cite> (<cite>Gesture</cite>): A gesture.</p></li>
+<li><p><cite>g</cite> (<cite>Gesture</cite>): Another gesture.</p></li>
+</ul>
+</dd>
+<dt>Returns:</dt><dd><ul class="simple">
+<li><p><cite>result</cite> (<cite>str</cite>): “win”, “loss” or “tie”.</p></li>
+</ul>
+</dd>
+<dt>Examples:</dt><dd><div class="doctest highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">g0</span> <span class="o">=</span> <span class="n">Gesture</span><span class="p">(</span><span class="mi">0</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">g1</span> <span class="o">=</span> <span class="n">Gesture</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">g0</span><span class="o">.</span><span class="n">compare</span><span class="p">(</span><span class="n">g1</span><span class="p">)</span>
+<span class="go">&#39;loss&#39;</span>
+</pre></div>
+</div>
+</dd>
+</dl>
+</dd></dl>
 
 </dd></dl>
 
 <dl class="py function">
 <dt class="sig sig-object py" id="rock_paper_scissors.get_computer_gesture">
 <span class="sig-prename descclassname"><span class="pre">rock_paper_scissors.</span></span><span class="sig-name descname"><span class="pre">get_computer_gesture</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#rock_paper_scissors.get_computer_gesture" title="Permalink to this definition"></a></dt>
-<dd></dd></dl>
+<dd><p>Get a random gesture that represents computer.</p>
+<dl class="simple">
+<dt>Returns:</dt><dd><ul class="simple">
+<li><p>(<cite>Gesture</cite>): A random gesture that represents computer.</p></li>
+</ul>
+</dd>
+</dl>
+</dd></dl>
 
 <dl class="py function">
 <dt class="sig sig-object py" id="rock_paper_scissors.play">
-<span class="sig-prename descclassname"><span class="pre">rock_paper_scissors.</span></span><span class="sig-name descname"><span class="pre">play</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">gesture_u</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="s"><span class="pre">'Gesture'</span></span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#rock_paper_scissors.play" title="Permalink to this definition"></a></dt>
-<dd><p>Play mora with computer
-:args gesture_u: a <cite>Gesture</cite>
-:return result: “win”, “loss” or “tie</p>
+<span class="sig-prename descclassname"><span class="pre">rock_paper_scissors.</span></span><span class="sig-name descname"><span class="pre">play</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">gesture_u</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference internal" href="#rock_paper_scissors.Gesture" title="rock_paper_scissors.Gesture"><span class="pre">Gesture</span></a></span></em><span class="sig-paren">)</span><a class="headerlink" href="#rock_paper_scissors.play" title="Permalink to this definition"></a></dt>
+<dd><p>Play mora with computer.</p>
+<dl class="simple">
+<dt>Args:</dt><dd><ul class="simple">
+<li><p><cite>gesture_u</cite> (<cite>Gesture</cite>): A gesture that represents user.</p></li>
+</ul>
+</dd>
+<dt>Returns:</dt><dd><ul class="simple">
+<li><p><cite>result</cite> (<cite>str</cite>): “win”, “loss” or “tie”.</p></li>
+</ul>
+</dd>
+</dl>
 </dd></dl>
 
 </section>
