@@ -8,9 +8,10 @@ Welcome to pytemplate's documentation!
 
 .. toctree::
    :maxdepth: 2
-   :caption: Contents:
+   :caption: Contents
 
    rock_paper_scissors
+   untested
 
 Indices and tables
 ==================
