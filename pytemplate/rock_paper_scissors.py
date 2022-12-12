@@ -2,6 +2,10 @@ import numpy.random as random
 
 
 class Gesture:
+    """
+    `Gesture` for Rock-Paper-scissors game
+    """
+
     def __init__(self, id) -> None:
         self.id = id
         self.rep = {0: "scissor", 1: "rock", 2: "paper"}
@@ -25,11 +29,12 @@ def get_computer_gesture():
 
 def play(gesture_u: "Gesture"):
     """
-        play(gesture_u: "Gesture")
+    play(gesture_u: "Gesture")
     Play mora with computer
     :args gesture_u: a `Gesture`
     :return result: "win", "loss" or "tie
     """
+
     gesture_c = get_computer_gesture()
     result = gesture_u.compare(gesture_c)
 
