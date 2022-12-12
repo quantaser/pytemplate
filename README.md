@@ -1,4 +1,5 @@
 # pyTemplate
+
 A template for building a python pkg
 
 | **Documentation** | **Build Status** | **Coverage** |
@@ -17,3 +18,12 @@ A template for building a python pkg
 [codecov badge]: https://codecov.io/gh/quantaser/pytemplate/branch/main/graph/badge.svg?token=9KLNCETIYB
 [codecov link]: https://codecov.io/gh/quantaser/pytemplate
 [codecov graph]: https://codecov.io/gh/quantaser/pytemplate/branch/main/graphs/sunburst.svg?token=9KLNCETIYB
+
+## Quick start
+
+To install this package, simply run:
+
+```bash
+$ pip install --upgrade git+https://github.com/quantaser/pytemplate.git
+
+```
